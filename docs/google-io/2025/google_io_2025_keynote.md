@@ -1,5 +1,5 @@
 ---
-title: DeepSight
+title: 
 layout: default
 ---
 
