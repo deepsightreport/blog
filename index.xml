@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 May 2025 15:24:50 -0400</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://example.org/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Wed, 21 May 2025 15:24:50 -0400</pubDate>
-      <guid>https://example.org/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;ironwood-tpu与gemini-25-pro驱动百万token多模态ai新纪元&#34;&gt;Ironwood TPU与Gemini 2.5 Pro驱动百万Token多模态AI新纪元&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;搜索截止日期: 2025-05-20&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ironwood TPU第七代AI加速器实现推理架构范式转变&lt;/strong&gt;，专为大规模推理优化，单芯片峰值达4,614 TFLOPs、192GB HBM3E、7.2TBps带宽，9,216芯片组成的Pod可提供42.5 ExaFLOPS算力，能效较前代提升2倍，显著降低大模型推理成本并支撑Gemini 2.5 Pro等超大模型的实时服务（如Ironwood TPU Pod单集群42.5 ExaFLOPS，2024年下半年开放云端商用）。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gemini 2.5 Pro/Flash原生多模态与超长上下文窗口突破&lt;/strong&gt;，支持文本、图像、音频、视频等多模态输入，单次上下文窗口扩展至100万Token，远超主流竞品（如Claude 3.7 Sonnet 200K、OpenAI o3-mini 200K），大幅提升代码理解、长文档推理与多模态交互能力（示例：2.5 Pro在GPQA Diamond科学推理84.0%、AIME 2024数学92.0%、Humanity’s Last Exam 18.8%等基准测试领先）。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AI硬件-软件协同与云原生超算基础设施（AI Hypercomputer）&lt;/strong&gt;，通过Pathways分布式调度、Cluster Director for GKE/Slurm等集群管理，支持TPU资源弹性调度与高可用，开放Vertex AI等主流框架，助力开发者与企业低门槛部署大模型推理与训练（如Google一年内AI产品月处理Token量从9.7万亿增至480万亿，开发者超700万）。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Agentic AI系统与开放协议推动AI从被动检索向主动任务执行演进&lt;/strong&gt;，Project Mariner结合Gemini多模态推理与Teach-and-Repeat范式，支持浏览器内多任务自动化与用户可控的多步操作，开放Agent-to-Agent协议与MCP标准，促进跨厂商、跨平台AI代理互操作（如Mariner在WebVoyager基准83.5%成功率，已与Automation Anywhere、UiPath等集成）。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AI硬件生态向多终端、多场景延展，Gemini Nano/Pro深度集成Android XR、可穿戴与眼镜设备&lt;/strong&gt;，实现端云协同的实时多模态感知、环境理解与主动辅助，推动AI助手从手机扩展至XR头显、智能眼镜、手表、车载等全场景（如三星Project Muhan XR头显、Gentle Monster/Warby Parker智能眼镜，支持实时翻译、导航、视觉辅助等）。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;gemini-25-pro与flash基础ai模型的突破&#34;&gt;Gemini 2.5 Pro与Flash：基础AI模型的突破&lt;/h2&gt;&#xA;&lt;h3 id=&#34;模型架构推理与性能指标&#34;&gt;模型架构、推理与性能指标&lt;/h3&gt;&#xA;&lt;p&gt;Gemini 2.5 Pro及其兄弟产品Gemini 2.5 Flash的发布，标志着基础AI模型演进的关键时刻。这些模型不仅是渐进式升级，更代表了对大语言模型（LLM）在推理、可扩展性和实际应用能力上的全新思考。&lt;br&gt;&#xA;Gemini 2.5 Pro将推理能力作为原生特性进行架构设计，而非事后补充。这一转变体现在其能够跨数学、科学、软件工程等领域解决复杂多步问题。该模型支持高达100万token的上下文窗口——是Claude 3.7 Sonnet和OpenAI o3-mini等主流竞品的五倍，远超DeepSeek R1的128K上下文&lt;a href=&#34;https://www.helicone.ai/blog/gemini-2.5-full-developer-guide&#34;&gt;[1]&lt;/a&gt;&lt;a href=&#34;https://www.datacamp.com/blog/gemini-2-5-pro&#34;&gt;[2]&lt;/a&gt;。这使Gemini 2.5 Pro能够一次性处理完整代码库或长文档，无需检索增强生成（RAG）流程，为企业和科研应用解锁新可能。&#xA;内部基准测试和独立评估均凸显了Gemini 2.5 Pro的领先地位。在重推理任务上，其在Humanity’s Last Exam中得分18.8%，领先于o3-mini（14%）和Claude 3.7 Sonnet（8.9%）。在科学与数学领域，GPQA Diamond得分84.0%，AIME 2024得分92.0%，树立了事实与逻辑推理的新标杆&lt;a href=&#34;https://www.helicone.ai/blog/gemini-2.5-full-developer-guide&#34;&gt;[1]&lt;/a&gt;&lt;a href=&#34;https://www.datacamp.com/blog/gemini-2-5-pro&#34;&gt;[2]&lt;/a&gt;。编程基准测试显示：Gemini 2.5 Pro在代码理解和大型项目架构上表现突出，尽管Claude 3.7 Sonnet在SWE-bench Verified上略占优势（70.3%对63.8%），o3-mini在LiveCodeBench v5上领先（74.1%对70.4%）。但Gemini在理解和推理大规模代码库方面的独特能力，尤其适用于复杂多文件项目。&#xA;Gemini 2.5 Pro引入的Deep Think模式进一步推动了AI推理的边界。通过在回答前考虑多种假设，Deep Think在USAMO 2025测试中取得49.4%的成绩，远超标准模型的34.5%，预示着未来更高级代理推理的潜力&lt;a href=&#34;https://beebom.com/google-unveils-gemini-2-5-pro-deep-think-and-improved-gemini-2-5-flash/&#34;&gt;[3]&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
   </channel>
