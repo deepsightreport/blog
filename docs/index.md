@@ -4,10 +4,8 @@
 
 ### Google I/O 系列
 - **2025**
-  {% assign pages_2025 = site.pages | where_exp:"p","p.path contains 'google-io/2025/'" %}
-  {% for p in pages_2025 %}
-  - [{{ p.title }}]({{ p.url }})
-  {% endfor %}
+  - [Ironwood TPU与Gemini 2.5 Pro驱动百万Token多模态AI新纪元](google-io/2025/google_io_2025_keynote.md)
+
 ---
 
 > 持续更新中，更多专题敬请期待！ 
