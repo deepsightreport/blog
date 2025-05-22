@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
 title: "gemini 2.5"
 permalink: /google-io/2025/gemini25/
----
+--- -->
 
 # Gemini 2.5原生多模态架构与DeepThink推理引领AI代理新时代
 
