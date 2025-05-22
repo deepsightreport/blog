@@ -1,3 +1,9 @@
+---
+layout: default
+title: "gemini"
+permalink: /google-io/2025/gemini/
+---
+
 # Gemini 2.5原生多模态架构与DeepThink推理引领AI代理新时代
 
 - 搜索截止日期: 2025-05-21
