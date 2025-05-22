@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "test"
-permalink: /google-io/2025/test/
+title: "test1"
+permalink: /google-io/2025/test1/
 ---
 
 # test
