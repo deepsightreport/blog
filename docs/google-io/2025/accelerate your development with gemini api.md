@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Gemini 200"
+title: "Gemini原生多模态AI架构"
+permalink: /google-io/2025/gemini/
 ---
-
 # Gemini原生多模态AI架构：200万Token上下文与智能体协作突破
 
 - 搜索截止日期: 2025-05-21
