@@ -2,3 +2,4 @@ title: DeepSight
 description: DeepSight is a research report generator.
 theme: minima
 source: docs
+baseurl: "/deepsightreport"
