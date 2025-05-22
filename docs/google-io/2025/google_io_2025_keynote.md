@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: "Inrowood"
 ---
 
 # Ironwood TPU与Gemini 2.5 Pro驱动百万Token多模态AI新纪元
