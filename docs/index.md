@@ -6,7 +6,8 @@
 - **2025**
   {% assign pages_2025 = site.pages | where_exp:"p", "p.path contains 'google-io/2025/'" %}
   {% for p in pages_2025 %}
-  - [{{ p.title }}]({{ p.url }})
+  - [{{ p.title }}]({{ p.url | relative_url }})
+
   {% endfor %}
 
 ---
