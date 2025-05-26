@@ -95,16 +95,16 @@ Copilot Studio与Azure AI Foundry对MCP的集成，使Agent可访问Foundry中11
 - **科学发现**：Microsoft Discovery新平台利用Agent团队推理科学知识、生成假设并持续实验。例如在PFAS-free冷却液研发中，Agent合成数百万候选分子，用AI模型筛选并验证结果，将原需数月或数年压缩至数天或数小时[transcript 1][00:110:19]，极大加速创新并普及先进研究工具。
 - **业务流程**：企业中，多Agent编排简化了合同生成、事件管理等流程。Copilot Studio低代码工具让企业构建能用公司专属语言和风格起草法律文件的Agent，或跨HR、IT、设施协调入职流程[[5]](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/multi-agent-orchestration-maker-controls-and-more-microsoft-copilot-studio-announcements-at-microsoft-build-2025/)[[6]](https://redmondmag.com/articles/2025/05/19/copilot-tuning-and-model-context-protocol-expand-ai-agent-development.aspx)[transcript 1][00:22:47]。Agent可用企业数据和流程微调，确保自动化深度契合组织需求。
 这些案例表明，自动化已不再是替代单一任务，而是编排需要推理、适应和协作的复杂跨职能工作流。
----
 **表：多Agent编排平台关键能力**
+
 | 平台/特性                  | Copilot Studio                  | Azure AI Foundry                 | Windows 11 MCP注册表           |
 |----------------------------|---------------------------------|----------------------------------|-------------------------------|
 | 多Agent编排                | 是（预览中）                    | 是（普遍可用）                   | 不适用                        |
 | 模型灵活性                 | 自带模型、微调                  | 11000+模型、定制模型             | 不适用                        |
-| 跨应用集成                 | SharePoint、Teams、WhatsApp、API| 任何REST/MCP服务                | 系统级Agent发现               |
+| 跨应用集成                 | SharePoint、Teams、WhatsApp、API | 任何REST/MCP服务                | 系统级Agent发现               |
 | 安全与治理                 | 企业控制、DLP、同意             | 托管、可观测、合规               | 代码签名、注册表、同意         |
 | 真实部署                   | 业务、医疗、入职                | 医疗、科学发现                   | 系统级Agent使能               |
----
+
 
 ### 基础重塑：开放协议与生态效应
 
