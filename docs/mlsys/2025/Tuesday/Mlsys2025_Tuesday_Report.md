@@ -1,3 +1,7 @@
+# test section
+![图1](/image/_page_6_Figure_0.jpeg)
+
+
 # 每日精选
 
 - **[QSERVE:](#qserve-w4a8kv4-quantization-and-system-co-design-for-efficient-llm-serving-4)** W4A8KV4 QUANTIZATION AND SYSTEM CO-DESIGN FOR EFFICIENT LLM SERVING: 提出QoQ渐进式分组量化算法，结合W4A8KV4混合精度和系统级优化（如计算感知权重重排、寄存器级并行），实现所有GEMM计算在高吞吐量INT8张量核心上运行，显著提升推理速度和内存效率，同时通过SmoothAttention缓解KV4量化带来的精度损失，整体在保持准确率的同时实现高达3.5倍的加速。
@@ -18,7 +22,7 @@
 - **选择性保留token保障信息完整**：鉴于部分跨层token对存在较大语义差异，MiniCache引入保留机制，保持这些“不可合并”token不变。此针对性保护避免了盲目合并带来的性能下降，实现了压缩率与信息保真度的平衡[[1]](https://proceedings.neurips.cc/paper_files/paper/2024/file/fd0705710bf01b88a60a3d479ea341d9-Paper-Conference.pdf)。
 - **全面评估揭示实际权衡**：实证研究表明，KV缓存压缩虽能降低内存占用并在高负载下提升吞吐量，但往往导致响应长度增加及特定任务准确率不均匀下降。这些发现凸显了压缩率、计算效率与输出质量之间的复杂关系，呼吁采用更全面的评估指标，超越单一的整体准确率和吞吐量。
 
-![图1](./docs/mlsys/2025/Tuesday/RETHINKING_KEY-VALUE_CACHE_COMPRESSION_TECHNIQUES_FOR_LARGE_LANGUAGE_MODEL_SERVING/Images_RETHINKING_KEY-VALUE_CACHE_COMPRESSION_TECHNIQUES_FOR_LARGE_LANGUAGE_MODEL_SERVING/_page_6_Figure_0.jpeg)
+![图1](/RETHINKING_KEY-VALUE_CACHE_COMPRESSION_TECHNIQUES_FOR_LARGE_LANGUAGE_MODEL_SERVING/Images_RETHINKING_KEY-VALUE_CACHE_COMPRESSION_TECHNIQUES_FOR_LARGE_LANGUAGE_MODEL_SERVING/_page_6_Figure_0.jpeg)
 
 图1：LLaMA-7B的吞吐量分析：（a-b）TRL（含FlashAttention与不含FlashAttention）和LMDeploy（LMD）上的FP16解码吞吐量。（c-d）StreamingLLM算法在TRL和LMD上的加速比。（e-h）不同输入大小的预填充吞吐量。（i-l）不同输入大小的解码吞吐量。
 
