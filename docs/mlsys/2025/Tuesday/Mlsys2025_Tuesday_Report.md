@@ -57,7 +57,7 @@
 
 <span id="figure-1">
 
-<img src="LEANATTENTION:_HARDWARE-AWARE_SCALABLE_ATTENTION_MECHANISM_FOR_THE_DECODE-PHASE_OF_TRANSFORMERS/Images_LEANATTENTION:_HARDWARE-AWARE_SCALABLE_ATTENTION_MECHANISM_FOR_THE_DECODE-PHASE_OF_TRANSFORMERS/_page_1_Figure_8.jpeg" alt="[图1](#figure-1)" style="max-height: 500px;">
+<img src="LEANATTENTION:_HARDWARE-AWARE_SCALABLE_ATTENTION_MECHANISM_FOR_THE_DECODE-PHASE_OF_TRANSFORMERS/Images_LEANATTENTION:_HARDWARE-AWARE_SCALABLE_ATTENTION_MECHANISM_FOR_THE_DECODE-PHASE_OF_TRANSFORMERS/page_1_Figure_8.jpeg" alt="[图1](#figure-1)" style="max-height: 500px;">
 
 [图1](#figure-1)：FlashAttention-2 [\(Dao,](#page-11-0) [2023\)](#page-11-0)、FlashDecoding [\(Dao et al.\)](#page-11-0)（固定拆分）和LeanAttention在假设的5个SM GPU上对2个头的注意力执行调度。LeanAttention将上下文拆分为最优的LeanTiles（每个头5个tile）。
 
