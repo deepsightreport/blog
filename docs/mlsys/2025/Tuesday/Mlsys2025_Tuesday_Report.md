@@ -1,5 +1,5 @@
 # test section
-![图1](image/page_6_Figure_0.jpeg)
+![图1](image/_page_6_Figure_0.jpeg)
 
 
 # 每日精选
